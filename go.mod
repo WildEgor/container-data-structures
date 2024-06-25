@@ -1,4 +1,4 @@
-module github.com/WildEgor/container-ordered-map
+module github.com/WildEgor/container-data-structures
 
 go 1.22.2
 

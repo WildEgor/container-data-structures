@@ -15,7 +15,7 @@
     "provider": {
       "name": "github",
       "options": {
-        "slug": "wildegor/container-ordered-map"
+        "slug": "wildegor/container-data-structures"
       }
     },
     "files-updater": {

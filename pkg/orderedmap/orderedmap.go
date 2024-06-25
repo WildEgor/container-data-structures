@@ -1,7 +1,7 @@
 package orderedmap
 
 import (
-	list "github.com/WildEgor/container-ordered-map/internal"
+	list "github.com/WildEgor/container-data-structures/internal"
 )
 
 type OrderedMap[K comparable, V any] struct {

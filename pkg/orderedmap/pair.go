@@ -1,6 +1,6 @@
 package orderedmap
 
-import list "github.com/WildEgor/container-ordered-map/internal"
+import list "github.com/WildEgor/container-data-structures/internal"
 
 type Pair[K comparable, V any] struct {
 	Key     K
