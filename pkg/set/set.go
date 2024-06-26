@@ -47,3 +47,23 @@ func (s *Set[K]) Has(data K) bool {
 func (s *Set[K]) Len() int {
 	return len(s.data)
 }
+
+// Values return Set values
+func (s *Set[K]) Values() []K {
+	values := make([]K, 0, s.Len())
+	for k := range s.data {
+		values = append(values, k)
+	}
+	return values
+}
+
+// First return value or error
+func (s *Set[K]) First() (val K, err error) {
+	if s.Len() == 0 {
+		err = &EmptySetError{}
+	}
+	for key := range s.data {
+		return key, nil
+	}
+	return
+}

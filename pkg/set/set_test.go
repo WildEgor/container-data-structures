@@ -18,4 +18,13 @@ func TestBasicFeatures(t *testing.T) {
 
 	assert.Equal(t, false, s.Contains("A"))
 	assert.Equal(t, s.Len(), 0)
+
+	_, err := s.First()
+	assert.Equal(t, &set.EmptySetError{}, err)
+
+	s.Add("A")
+	s.Add("B")
+	data, err := s.First()
+	assert.Equal(t, nil, err)
+	assert.Equal(t, "A", data)
 }
