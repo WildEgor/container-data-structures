@@ -28,6 +28,7 @@ Project structure:
 Structures:
 - [x] [OrderedMap](./examples/orderedmap/main.go)
 - [x] [Stack](./examples/stack/main.go)
+- [x] [Set](./examples/set/main.go)
 
 ## Contributing
 
