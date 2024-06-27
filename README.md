@@ -25,7 +25,9 @@ Project structure:
     - pkg
         - orderedmap - ordered map impl
 
-### [OrderedMap](./examples/orderedmap/main.go)
+Structures:
+- [x] [OrderedMap](./examples/orderedmap/main.go)
+- [x] [Stack](./examples/stack/main.go)
 
 ## Contributing
 
