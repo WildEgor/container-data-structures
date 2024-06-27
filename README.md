@@ -22,9 +22,7 @@ Project:
         - testing.yml - run checks and tests
     - internal
       - list.go - generic list impl
-    - pkg
-        - orderedmap - ordered map impl
-        - queue - queue impl
+    - pkg - contains data structure implementations
 
 Structures:
 - [x] [OrderedMap](./examples/orderedmap/main.go)
