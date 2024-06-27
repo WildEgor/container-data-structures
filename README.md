@@ -15,7 +15,7 @@ go get github.com/WildEgor/container-data-structures
 
 ## Usage
 
-Project structure:
+Project:
 - .github
     - workflows
         - release.yml - run semantic release
@@ -24,9 +24,11 @@ Project structure:
       - list.go - generic list impl
     - pkg
         - orderedmap - ordered map impl
+        - queue - queue impl
 
 Structures:
 - [x] [OrderedMap](./examples/orderedmap/main.go)
+- [x] [Queue](./examples/queue/main.go)
 - [x] [Stack](./examples/stack/main.go)
 - [x] [Set](./examples/set/main.go)
 
